@@ -89,3 +89,54 @@ ul {
 #Arrangementet {
     font-size: 26px;
 }
+
+/* Tekst Informasjon */
+
+.info-seksjon {
+    margin-top: -65px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-container > div {
+    width: 400px;
+    text-align: center;
+}
+
+/* NB! NB! NY SIDE - STREAMING SIDE */
+
+.kommersnart {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nedtelling {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+}
+
+.dag, .time, .minutt, .sekund {
+    font-size: 1.9rem ;
+}
+
+#rocketleague {
+    width: 650px;
+    height: 350px;
+}
+
+#bilde-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
