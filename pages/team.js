@@ -4,7 +4,7 @@ const reviews = [
       navn: "Adnan Hafez",
       tittel: "1IM1 - Student",
       img:
-        "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+        "https://cdn.discordapp.com/avatars/1010117044705968168/0920dd65e7ad1234b55f4fe1a5182cc4.webp?size=128",
       tekst:
         "",
     },
@@ -13,7 +13,7 @@ const reviews = [
       navn: "Emil",
       tittel: "1IM2 - Student",
       img:
-        "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
+        "https://cdn.discordapp.com/avatars/946488524784406551/6a3aefb8336260685c3edfdcefe09972.webp?size=128",
       tekst:
         "",
     },
@@ -74,7 +74,7 @@ nextBtn.addEventListener('click', function(){
 prevBtn.addEventListener('click', function(){
     currentItem--;
     if (currentItem < 0) {
-        currentItem = reviews.length -1;
+        currentItem = reviews.length - 1;
     }
     visMedlem();
 })
