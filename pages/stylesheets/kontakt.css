@@ -65,6 +65,15 @@ header {
   margin-left: 30px;
 }
 
+.logo-flex-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-flex-container a:hover {
+  text-decoration: underline;
+}
+
 .logo-flex-container p {
   font-family: uppercut-angle,sans-serif;
   font-weight: 400;
