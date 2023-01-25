@@ -163,6 +163,7 @@ ul {
     width: 150px;
     height: 150px;
     border-radius: 5%;
+    border: 0.5px solid black;
 }
 
 .FIFA, .MarioKart, .RocketLeague, .SuperSmash {
@@ -193,7 +194,7 @@ ul {
 }
 
 .flex-container-tekst-spill > div {
-    width: 350px;
+    width: 450px;
 }
 
 .spillturnering img {
