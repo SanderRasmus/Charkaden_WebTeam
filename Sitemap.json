@@ -1,0 +1,28 @@
+{
+	"Index": {
+		"Infoside": {
+			"Innhold": [
+				"Litt om prosjektet",
+				"Bilder",
+				""
+			],
+			"Navbar": {
+				"Påmelding": [
+					"QR-kode",
+					"Kort URL"
+				],
+				"Scoreboard": [
+					"Poengtavle"
+				],
+				"Om oss": [
+					"Grupper & medlemmer",
+					"Hva vi gjør"
+				],
+				"Kontakt oss": [
+					"Epost",
+					"SoMe"
+				]
+			}
+		}
+	}
+}
