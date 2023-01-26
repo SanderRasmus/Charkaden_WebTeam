@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/bauhaus-93');
+@import url('https://fonts.cdnfonts.com/css/ethnocentric');
+
+body {
+	text-align: center;
+	margin: 0;
+	background-color: #4A539F;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Bauhaus 93';
+	font-size: 35px;
+}
+
+p {
+	color: #ffffff;
+	font-family: 'Bauhaus 93';
+}
+
+input {
+	border-radius: 10%;
+	padding: 35px;
+}
+
+button {
+	padding:10%
+}
