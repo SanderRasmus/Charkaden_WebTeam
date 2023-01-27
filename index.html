@@ -5,11 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charkaden Hovedside</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.typekit.net/uww2vid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcuut icon" type="image/x-icon" href="/pictures/LogoChaSpillturnering2023_1.ico">
 </head>
 <body>
-    <h1>jeg</h1>
-    <p>adnan</p>
-    <div class=""></div>
+
+  <header>
+    <div class="logo-flex-container">
+        <div>
+            <a href="/index.html"><img src="/pictures/ChaLogo.png" alt="Charkaden Logo"></a>
+        </div>
+        <div>
+            <a href="/index.html"><p>
+                Charkaden 2023
+            </p></a>
+        </div>
+    </div>
+
+    <nav>
+        <div class="navbar-container">
+            <ul>
+                <li><a href="/index.html">Hjem</a></li>
+                <li><a href="/pages/event.html">Om Eventet</a></li>
+                <li><a href="/pages/paamelding.html">Påmelding</a></li>
+                <li><a href="/pages/scoreboard.html">Poengtavle</a></li>
+                <li><a href="/pages/streaming.html">Streaming</a></li>
+                <li><a href="/pages/kontakt.html">Kontakt Oss</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+   
+    <div class="Chalottenlund">
+ <div>Chalottenlund VGS presenterer</div>
+</div>
+<div>
+<div class="Charkaden">
+  Charkaden
+</div>
+</div>
+<div>
+<div class="Uppsummering">
+    <p>Vi ser ofte forskjellige skrifttyper på websider fordi HTML-tagger kan endre skriftstilen.<br>
+        Noen ganger er det vi ser at spesiell tekst vises med bilder.<br>
+        Vi ser ofte forskjellige skrifttyper på websider fordi HTML-tagger kan endre skriftstilen.<br>
+        Noen ganger er det vi ser at spesiell tekst vises med bilder.</p>
+</div>
+<section class="main" id="#">
+    <div>
+        <a href="/pages/event.html" class="main-btn">Les mer om Eventet</a>
+        <a href="/pages/paamelding.html" class="main-btn">Påmelding skjema</a>
+    </div>
+</section>
+<div class="bilderrocketleague">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.2.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.3.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.4.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.5.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.6.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.7.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.8.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.9.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="bilder/bilder til charkaden /bilde.10.png" />
+          </div>
+        </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+</div>
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     effect: "coverflow",
+     grabCursor: true,
+     centeredSlides: true,
+     slidesPerView: "auto",
+     coverflowEffect: {
+       rotate: 50,
+       stretch: 0,
+       depth: 200,
+       modifier: 1,
+       slideShadows: true,
+     },
+     loop:true,
+     pagination: {
+       el: ".swiper-pagination",
+     },
+   });
+ </script>
+
+    <footer class="footer">
+        <p class="footer-title">kontakt@Charkaden.no</p><spen>Chalottenlund VGS</spen></p>
+    </footer>
 </body>
 </html>
