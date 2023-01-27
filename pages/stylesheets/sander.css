@@ -44,6 +44,10 @@ header {
     margin-top: -56px;
 }
 
+.navbar-container-2 {
+    display: none;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -74,6 +78,7 @@ ul {
     background-image: url('/pictures/gamingbakgrunn.jpg');
     background-position-y: -100px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .bakgrunn-flex-container {
@@ -110,6 +115,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .flex-container > div {
@@ -188,6 +194,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -273,4 +280,187 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
+}
+
+
+/* Responsivt design Navbar + Event side */
+
+@media screen and (max-width: 1040px) {
+
+    .navbar-container {
+        display: none;
+    }
+
+    .navbar-container-2 div:last-child {
+        margin-left: -35px;
+    }
+
+    .navbar-container-2 {
+        margin-top: -30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar-container-2 a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Space Mono', sans-serif;    
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    .navbar-container-2 a:hover {
+        font-weight: 700;
+        text-decoration: underline;    
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .arkadedagene > div {
+        width: 600px;
+    }
+
+    .flex-container > div {
+        width: 300px;
+    }
+
+    .flex-container > div > p {
+        font-size: 14px;
+    }
+
+    .logo-flex-container {
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 37px;
+    }
+
+    .flex-container-tekst-spill div:first-child {
+        text-align: center;
+    }
+
+    .flex-container-tekstbokser-spillturnering {
+        text-align: center;
+    }
+
+    .spillturnering {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spillturnering img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .button-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center ;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .arkadedagene > div {
+        width: 600px;
+    }
+
+    .flex-container > div {
+        width: 230px;
+    }
+
+    .flex-container > div > p {
+        font-size: 13px;
+    }
+
+    .arkadedagene > div {
+        width: 400px;
+        font-size: 13.5px;
+    }
+
+    .FIFA p, .MarioKart p, .RocketLeague p, .SuperSmash p {
+        font-size: 12px;
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+
+    .arkadedagene > div {
+        width: 600px;
+    }
+
+    .flex-container > div {
+        width: 230px;
+    }
+
+    .flex-container > div > p {
+        font-size: 13px;
+    }
+
+    .arkadedagene > div {
+        width: 400px;
+        font-size: 13.5px;
+    }
+
+    .FIFA p, .MarioKart p, .RocketLeague p, .SuperSmash p {
+        font-size: 12px;
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 586px) {
+    .box {
+        background-position-y: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .box {
+        background-position-y: top;
+    }
+
+    .spillturnering img {
+        width: 300px;
+        height: 190px;
+    }
+
+    .flex-container-tekstbokser-spillturnering p {
+        font-size: 13px;
+    }
+
+    #Overskrift-Turnering {
+        font-size: 14px;
+    }
+
+    .flex-container-overskrift-spill {
+        font-size: 15px;
+    }
+
+    .flex-container-tekst-spill > div {
+        width: 300px;
+    }
+
+    #påmeldings-knapp {
+        width: 150px;
+        font-size: 13px;
+    }
+
+    .arkadedagene > div {
+        width: 330px;
+        font-size: 12px;
+    }
+
+    .navbar-container-2 a {
+        font-size: 13px;
+    }
+
+    .logo-flex-container {
+        gap: 10px;
+    }
 }
