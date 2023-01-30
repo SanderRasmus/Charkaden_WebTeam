@@ -44,6 +44,10 @@ header {
     margin-top: -56px;
 }
 
+.navbar-container-2 {
+    visibility: hidden;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -65,6 +69,29 @@ ul {
     text-decoration: underline;    
 }
 
+.flex-container-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Overskrift-Info {
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+.Underoverskrift-Info {
+    font-size: 14px;
+    font-family: 'Nunito';
+}
+
+.Underoverskrift-Info {
+    width: 700px;
+    text-align: center;
+}
+
 /* Iframe */
 
 .flex-container-iframe {
@@ -72,4 +99,161 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+iframe {
+    width: 800px;
+    height: 500px;
+}
+/* Responsivt Design Scoreboard */
+
+@media screen and (max-width: 1040px) {
+    .navbar-container {
+        display: none;
+    }
+  
+    .navbar-container-2 div:last-child {
+        margin-left: -35px;
+    }
+  
+    .navbar-container-2 {
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        visibility: visible;
+    }
+  
+    .navbar-container-2 a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Space Mono', sans-serif;    
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    .navbar-container-2 a:hover {
+        font-weight: 700;
+        text-decoration: underline;    
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-container-2 a {
+      font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo-flex-container {
+      justify-content: center;
+      margin-left: 0;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+  
+    .logo-flex-container img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .logo-flex-container div:last-child {
+      position: relative;
+      top: -5px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .flex-container-iframe {
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 600px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .Underoverskrift-Info {
+        width: 400px;
+    }
+
+    .flex-container-iframe {
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .navbar-container-2 {
+        margin-top: 30px;
+    }
+
+    .navbar-container-2 a {
+        font-size: 12.5px;
+    }
+
+    .flex-container-iframe {
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .Underoverskrift-Info {
+        width: 300px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo-flex-container p {
+        font-size: 12px;
+    }
+
+    .logo-flex-container img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo-flex-container div:last-child {
+        position: relative;
+        top: 0;
+    }
+
+    .navbar-container-2 a {
+        font-size: 11px;
+    }
+    
+    iframe {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .Underoverskrift-Info {
+        width: 280px;
+        font-size: 12px;
+    }
 }
