@@ -57,7 +57,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 1%;
+    gap: 30px;
     list-style: none;
     min-width: 900px;
 }
@@ -124,7 +124,6 @@ ul {
 .main {
     width: 100%;
     min-height: 100vh;
-    min-width: 600px;
     display: flex;
     align-items: center;
     background: url( )no-repeat;
@@ -171,37 +170,32 @@ ul {
     transform: scale(1.1);
 }
 
+.swiper {
+ width: 100%;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
 
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
 
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
 
-
-    .swiper {
-      width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-        min-width: 950px;
-    }
-
-    .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      width: 650px;
-      height: 600px;
-      display: flex;
-      justify-content: center;
-      margin-top: -150px;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-    }
-
-    .content .bilderrocketleague{
-width: 500px;
-display: flex;
-justify-content: flex-end;
- }
+.content .bilderrocketleague{
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
 
  .content .bilderrocketleague img{
     width: 320px;
