@@ -57,8 +57,9 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 1%;
     list-style: none;
+    min-width: 900px;
 }
 
 .navbar-container a {
@@ -123,6 +124,7 @@ ul {
 .main {
     width: 100%;
     min-height: 100vh;
+    min-width: 600px;
     display: flex;
     align-items: center;
     background: url( )no-repeat;
@@ -177,6 +179,7 @@ ul {
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
+        min-width: 950px;
     }
 
     .swiper-slide {
