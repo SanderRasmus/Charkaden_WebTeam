@@ -114,6 +114,19 @@ ul {
   text-decoration: underline;    
 }
 
+.navbar-container-2 {
+  display: none;
+}
+
+.navbar-container-2 {
+  gap: 15px;
+}
+
+.navbar-container-2 div:last-child {
+  position: relative;
+  left: 3px;
+}
+
 /* Bakgrunn */
 
 .bakgrunnsboks {
@@ -449,3 +462,149 @@ main {
 .neste-btn:hover {
   color: var(--clr-primary-5);
 }
+
+/* Responsivt Design Kontakt Side */
+
+@media screen and (max-width: 1040px) {
+
+  .navbar-container {
+      display: none;
+  }
+
+  .navbar-container-2 div:last-child {
+      margin-left: -35px;
+  }
+
+  .navbar-container-2 {
+      margin-top: -20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .navbar-container-2 a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Space Mono', sans-serif;    
+      font-weight: 400;
+      font-size: 15px;
+  }
+  
+  .navbar-container-2 a:hover {
+      font-weight: 700;
+      text-decoration: underline;    
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo-flex-container {
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+
+  .logo-flex-container img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo-flex-container div:last-child {
+    position: relative;
+    top: -5px;
+  }
+  
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    visibility: hidden;
+  }
+
+  .flex-container-utviklere {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-container-2 a {
+    font-size: 13px;
+  }
+
+  iframe {
+    width: 300px; 
+    height: 200px;
+  }
+  
+}
+
+@media screen and (max-width: 470px) {
+  .navbar-container-2 a {
+      font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .flex-container-mail p {
+    font-size: 13px;
+  }
+
+  .flex-container-nettside p {
+    font-size: 12px;
+  }
+
+  .flex-container-viderekoblinger {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+.logo-flex-container {
+  margin-bottom: 30px;
+}
+  
+  .logo-flex-container p {
+    font-size: 12px;
+  }
+
+  .logo-flex-container img {
+    width: 33px;
+    height: 33px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .flex-container-innhold > div:first-child {
+    width: 300px;
+  }
+
+  .flex-container-innhold {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-container-viderekoblinger {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .flex-container-innhold div:first-child > p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .navbar-container-2 a {
+    font-size: 11.2px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  iframe {
+    width: 220px; 
+    height: 200px;
+  }
+}
+
+
