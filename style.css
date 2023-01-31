@@ -203,12 +203,11 @@ ul {
     margin-top: 2590ex;
  }
 
- .swiper-slide img{
+ .swiper-slide img {
     display: flex;
     position: fixed;
     bottom: 0;
     max-height: 100%;
- 
  }
 
 

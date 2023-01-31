@@ -42,6 +42,10 @@ body {
     margin-top: -56px;
 }
 
+.navbar-container-2{
+    visibility: hidden;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -85,4 +89,154 @@ ul {
 	margin-top: 75px;
 	display: flex;
 	justify-content: center;
+}
+
+iframe {
+    width: 650px;
+    height: 750px;
+}
+
+/* Responsivt design - Påmelding */
+
+@media screen and (max-width: 1040px) {
+
+    .navbar-container {
+        display: none;
+    }
+
+    .navbar-container-2 {
+        visibility: visible;
+    }
+  
+    .navbar-container-2 div:last-child {
+        margin-left: -35px;
+    }
+  
+    .navbar-container-2 {
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+    .navbar-container-2 a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Space Mono', sans-serif;    
+        font-weight: 400;
+        font-size: 16px;  
+    }
+    
+    .navbar-container-2 a:hover {
+        font-weight: 700;
+        text-decoration: underline;    
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .logo-flex-container {
+      justify-content: center;
+      margin-left: 0;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+  
+    .logo-flex-container img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .logo-flex-container div:last-child {
+      position: relative;
+      top: -5px;
+    }
+
+    .flex-container-tekst {
+        margin-top: 80px;
+    }
+
+    #Overskrift {
+        font-size: 18px;
+    }
+
+    iframe {
+        width: 600px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #Overskrift {
+        font-size: 15px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 700px;
+    }
+
+    .navbar-container-2 a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Space Mono', sans-serif;    
+        font-weight: 400;
+        font-size: 14px;  
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .flex-container-tekst div:first-child {
+        width: 400px;
+    }
+
+    #Overskrift {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    iframe {
+        width: 350px;
+        height: 600px;
+    }
+
+    .logo-flex-container {
+        margin-bottom: 27px;
+    }
+
+    .logo-flex-container p {
+        font-family: uppercut-angle,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .flex-container-tekst div:first-child {
+        width: 300px;
+    }
+
+    #Overskrift {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    iframe {
+        width: 320px;
+        height: 600px;
+    }
+
+    .logo-flex-container {
+        margin-bottom: 27px;
+    }
+
+    .logo-flex-container p {
+        font-family: uppercut-angle,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+    }
 }
