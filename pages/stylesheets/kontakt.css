@@ -472,7 +472,12 @@ main {
   }
 
   .navbar-container-2 div:last-child {
-      margin-left: -35px;
+      margin-left: -0x;
+  }
+
+  .navbar-container-2 div:first-child {
+    position: relative;
+    right: -20px;
   }
 
   .navbar-container-2 {

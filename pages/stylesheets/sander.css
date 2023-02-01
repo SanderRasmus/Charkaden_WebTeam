@@ -258,6 +258,12 @@ ul {
     justify-content: center;
 }
 
+.tekst > div {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
 .nedtelling {
     margin-top: 20px;
     display: flex;
@@ -462,5 +468,42 @@ ul {
 
     .logo-flex-container {
         gap: 10px;
+    }
+}
+
+/* Streaming Side Responsivt Design */
+
+@media screen and (max-width: 698px) {
+    .tekst > div {
+        width: 400px;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    #rocketleague {
+        width: 500px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .tekst > div {
+        width: 400px;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    #rocketleague {
+        width: 500px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    #rocketleague {
+        width: 390px;
+        height: 190px;
     }
 }
