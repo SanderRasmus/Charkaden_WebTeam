@@ -525,6 +525,10 @@ main {
     visibility: hidden;
   }
 
+  .flex-container-innhold {
+    margin-bottom: -380px;
+  }
+
   .flex-container-utviklere {
     visibility: hidden;
   }
